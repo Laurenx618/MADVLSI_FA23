@@ -1,0 +1,21 @@
+* NGSPICE file created from AND.ext - technology: sky130A
+
+.subckt inverter Y w_n260_220# a_n70_n160# a_n220_n50#
+X0 Y a_n70_n160# w_n260_220# w_n260_220# sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X1 Y a_n70_n160# a_n220_n50# a_n220_n50# sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+.ends
+
+.subckt NAND w_n240_260# a_n200_n10# a_n150_n120# a_n70_300# a_n20_n120#
+X0 w_n240_260# a_n20_n120# a_n70_300# w_n240_260# sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X1 a_n70_300# a_n20_n120# a_n70_n10# a_n70_300# sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X2 a_n70_n10# a_n150_n120# a_n200_n10# a_n70_300# sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X3 a_n70_300# a_n150_n120# w_n240_260# w_n240_260# sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+.ends
+
+
+* Top level circuit AND
+
+Xinverter_0 Y VP VN VN inverter
+XNAND_0 VP VN A VN B NAND
+.end
+

@@ -1,0 +1,110 @@
+magic
+tech sky130A
+timestamp 1694506597
+<< nwell >>
+rect -130 110 75 250
+<< nmos >>
+rect -10 -25 5 75
+<< pmos >>
+rect -10 130 5 230
+<< ndiff >>
+rect -60 60 -10 75
+rect -60 -10 -45 60
+rect -25 -10 -10 60
+rect -60 -25 -10 -10
+rect 5 60 55 75
+rect 5 -10 20 60
+rect 40 -10 55 60
+rect 5 -25 55 -10
+<< pdiff >>
+rect -60 215 -10 230
+rect -60 145 -45 215
+rect -25 145 -10 215
+rect -60 130 -10 145
+rect 5 215 55 230
+rect 5 145 20 215
+rect 40 145 55 215
+rect 5 130 55 145
+<< ndiffc >>
+rect -45 -10 -25 60
+rect 20 -10 40 60
+<< pdiffc >>
+rect -45 145 -25 215
+rect 20 145 40 215
+<< psubdiff >>
+rect -110 60 -60 75
+rect -110 -10 -95 60
+rect -75 -10 -60 60
+rect -110 -25 -60 -10
+<< nsubdiff >>
+rect -110 215 -60 230
+rect -110 145 -95 215
+rect -75 145 -60 215
+rect -110 130 -60 145
+<< psubdiffcont >>
+rect -95 -10 -75 60
+<< nsubdiffcont >>
+rect -95 145 -75 215
+<< poly >>
+rect -10 230 5 245
+rect -10 75 5 130
+rect -10 -40 5 -25
+rect -35 -50 5 -40
+rect -35 -70 -25 -50
+rect -5 -70 5 -50
+rect -35 -80 5 -70
+<< polycont >>
+rect -25 -70 -5 -50
+<< locali >>
+rect -105 215 -15 225
+rect -105 145 -95 215
+rect -75 145 -45 215
+rect -25 145 -15 215
+rect -105 135 -15 145
+rect 10 215 50 225
+rect 10 145 20 215
+rect 40 145 50 215
+rect 10 135 50 145
+rect 30 70 50 135
+rect -105 60 -15 70
+rect -105 -10 -95 60
+rect -75 -10 -45 60
+rect -25 -10 -15 60
+rect -105 -20 -15 -10
+rect 10 60 50 70
+rect 10 -10 20 60
+rect 40 -10 50 60
+rect 10 -20 50 -10
+rect 30 -40 50 -20
+rect -130 -50 5 -40
+rect -130 -60 -25 -50
+rect -35 -70 -25 -60
+rect -5 -70 5 -50
+rect 30 -60 75 -40
+rect -35 -80 5 -70
+<< viali >>
+rect -95 145 -75 215
+rect -45 145 -25 215
+rect -95 -10 -75 60
+rect -45 -10 -25 60
+<< metal1 >>
+rect -130 215 75 225
+rect -130 145 -95 215
+rect -75 145 -45 215
+rect -25 145 75 215
+rect -130 135 75 145
+rect -130 60 75 70
+rect -130 -10 -95 60
+rect -75 -10 -45 60
+rect -25 -10 75 60
+rect -130 -20 75 -10
+<< labels >>
+rlabel locali 75 -50 75 -50 3 Y
+port 2 e
+rlabel locali -130 -50 -130 -50 7 A
+port 1 w
+rlabel metal1 -130 25 -130 25 7 VN
+port 4 w
+rlabel metal1 -130 180 -130 180 7 VP
+port 3 w
+<< end >>
