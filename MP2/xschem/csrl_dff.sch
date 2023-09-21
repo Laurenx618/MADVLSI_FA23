@@ -82,13 +82,13 @@ lab=#net3}
 N 130 220 170 220 {
 lab=#net2}
 N 350 160 350 180 {
-lab=CLK}
+lab=#net5}
 N 350 180 390 180 {
-lab=CLK}
+lab=#net5}
 N 390 180 390 260 {
-lab=CLK}
+lab=#net5}
 N 350 260 390 260 {
-lab=CLK}
+lab=#net5}
 N 100 160 100 180 {
 lab=CLK}
 N 100 180 140 180 {
@@ -98,8 +98,6 @@ lab=CLK}
 N 140 0 140 180 {
 lab=CLK}
 N 140 0 190 0 {
-lab=CLK}
-N 350 360 450 360 {
 lab=CLK}
 N 160 80 170 80 {
 lab=VP}
@@ -142,7 +140,7 @@ lab=VN}
 N 100 260 140 260 {
 lab=CLK}
 N 350 250 350 360 {
-lab=CLK}
+lab=#net5}
 N 310 -40 310 40 {
 lab=VP}
 N 280 -40 310 -40 {
@@ -203,12 +201,20 @@ N 380 220 470 220 {
 lab=QB}
 N 470 220 530 220 {
 lab=QB}
-N 140 360 350 360 {
-lab=CLK}
 N 490 130 550 130 {
 lab=Q}
 N 530 220 550 220 {
 lab=QB}
+N 350 360 450 360 {
+lab=#net5}
+N 140 360 280 360 {
+lab=CLK}
+N 310 390 310 400 {
+lab=VN}
+N 310 310 310 330 {
+lab=#net5}
+N 310 310 350 310 {
+lab=#net5}
 C {madvlsi/pmos4.sym} 170 80 0 1 {name=M1
 L=0.15
 W=1
@@ -412,3 +418,4 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/opin.sym} 550 130 0 0 {name=p3 lab=Q}
+C {/home/madvlsi/MADVLSI_FA23/MP2/xschem/inverter.sym} 360 360 0 0 {name=X1}

@@ -28,7 +28,7 @@ value=1.8}
 C {madvlsi/vdd.sym} -20 -50 0 0 {name=l3 lab=VDD}
 C {madvlsi/gnd.sym} -20 10 0 0 {name=l4 lab=GND}
 C {madvlsi/vsource.sym} -20 110 0 0 {name=V_D
-value="pulse(0 1.8 1ns 1n 1ns 16ns 30ns)"}
+value="pulse(0 1.8 1ns 1n 1ns 12ns 25ns)"}
 C {madvlsi/gnd.sym} -20 140 0 0 {name=l6 lab=GND}
 C {devices/lab_pin.sym} 175 20 0 0 {name=p1 sig_type=std_logic lab=V_D}
 C {madvlsi/vsource.sym} 210 230 0 0 {name=V_CLK
