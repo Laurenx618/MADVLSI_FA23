@@ -6,21 +6,22 @@ Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalen
 Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
-Flattening unmatched subcell csrl_dff in circuit register.spice (1)(1 instance)
+Flattening unmatched subcell inverter in circuit 4reg_xschem.spice (0)(1 instance)
+Flattening unmatched subcell csrl_dff3_lds in circuit 4reg_xschem.spice (0)(4 instances)
+Flattening unmatched subcell csrl_dff in circuit register.spice (1)(4 instances)
+Flattening unmatched subcell inverter2 in circuit register.spice (1)(1 instance)
 
 Subcircuit summary:
-Circuit 1: csrl_dff_xschem.spice           |Circuit 2: register.spice                  
+Circuit 1: 4reg_xschem.spice               |Circuit 2: register.spice                  
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (7)                |sky130_fd_pr__pfet_01v8 (7)                
-sky130_fd_pr__nfet_01v8 (7)                |sky130_fd_pr__nfet_01v8 (7)                
-Number of devices: 14                      |Number of devices: 14                      
-Number of nets: 11                         |Number of nets: 11                         
+sky130_fd_pr__pfet_01v8 (29)               |sky130_fd_pr__pfet_01v8 (29)               
+sky130_fd_pr__nfet_01v8 (29)               |sky130_fd_pr__nfet_01v8 (29)               
+Number of devices: 58                      |Number of devices: 58                      
+Number of nets: 29                         |Number of nets: 29                         
 ---------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
 Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
-Device classes csrl_dff_xschem.spice and register.spice are equivalent.
+Device classes 4reg_xschem.spice and register.spice are equivalent.
 
 Final result: Circuits match uniquely.
 .

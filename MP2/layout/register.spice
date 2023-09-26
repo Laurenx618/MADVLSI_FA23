@@ -17,9 +17,21 @@ X12 VN Q QB VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
 X13 VN QB Q VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
 .ends
 
+.subckt inverter2 A Y VP VN
+X0 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X1 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+.ends
+
 
 * Top level circuit register
 
-Xcsrl_dff_0 D DB CLK Q QB VP VN csrl_dff
+Xcsrl_dff_0 csrl_dff_0/D inverter2_0/Y CLK csrl_dff_1/D csrl_dff_1/DB csrl_dff_3/VP
++ VN csrl_dff
+Xcsrl_dff_1 csrl_dff_1/D csrl_dff_1/DB CLK csrl_dff_2/D csrl_dff_2/DB csrl_dff_3/VP
++ VN csrl_dff
+Xcsrl_dff_2 csrl_dff_2/D csrl_dff_2/DB CLK csrl_dff_3/D csrl_dff_3/DB csrl_dff_3/VP
++ VN csrl_dff
+Xcsrl_dff_3 csrl_dff_3/D csrl_dff_3/DB CLK Q QB csrl_dff_3/VP VN csrl_dff
+Xinverter2_0 csrl_dff_0/D inverter2_0/Y csrl_dff_3/VP VN inverter2
 .end
 

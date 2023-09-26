@@ -1,26 +1,38 @@
 magic
 tech sky130A
-timestamp 1695752362
-<< poly >>
-rect 0 470 15 485
+timestamp 1695762172
 << locali >>
 rect 0 820 25 840
-rect 315 820 340 840
+rect 1335 820 1360 840
 rect 0 520 25 540
-rect 315 520 340 540
+rect 1335 520 1360 540
 << metal1 >>
 rect 0 515 20 990
 rect 0 15 20 460
-use csrl_dff  csrl_dff_0 ~/MADVLSI_FA23/MP2/layout
-timestamp 1695750684
+rect 0 -60 20 -20
+use csrl_dff  csrl_dff_0
+timestamp 1695756208
 transform 1 0 50 0 1 200
-box -50 -185 290 810
+box -50 -260 290 810
+use csrl_dff  csrl_dff_1
+timestamp 1695756208
+transform 1 0 390 0 1 200
+box -50 -260 290 810
+use csrl_dff  csrl_dff_2
+timestamp 1695756208
+transform 1 0 730 0 1 200
+box -50 -260 290 810
+use csrl_dff  csrl_dff_3
+timestamp 1695756208
+transform 1 0 1070 0 1 200
+box -50 -260 290 810
+use inverter2  inverter2_0
+timestamp 1695761393
+transform 1 0 -75 0 1 385
+box -80 -105 75 455
 << labels >>
-rlabel locali 340 830 340 830 3 Q
-rlabel locali 340 530 340 530 3 QB
-rlabel metal1 0 760 0 760 7 VP
-rlabel poly 0 475 0 475 7 CLK
-rlabel locali 0 530 0 530 7 DB
-rlabel locali 0 830 0 830 7 D
 rlabel metal1 0 250 0 250 7 VN
+rlabel metal1 0 -40 0 -40 7 CLK
+rlabel locali 1360 830 1360 830 3 Q
+rlabel locali 1360 530 1360 530 3 QB
 << end >>
