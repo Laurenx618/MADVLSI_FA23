@@ -1,0 +1,15 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell inverter in circuit csrl_dff_xschem.spice (1)(1 instance)
+Flattening unmatched subcell csrl_dff3_lds in circuit csrl_dff_xschem.spice (1)(1 instance)
+
+Equate elements:  no current cell.
+Device classes csrl_dff_layout.spice and csrl_dff_xschem.spice are equivalent.
+
+Final result: Top level cell failed pin matching.
