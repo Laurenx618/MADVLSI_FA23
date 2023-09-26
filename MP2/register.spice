@@ -1,0 +1,25 @@
+* NGSPICE file created from register.ext - technology: sky130A
+
+.subckt csrl_dff D DB CLK Q QB VP VN
+X0 a_330_630# CLK VP VP sky130_fd_pr__pfet_01v8 ad=0.433 pd=3.03 as=0.5 ps=3.16 w=4 l=0.15
+X1 a_50_n280# CLK VN VN sky130_fd_pr__nfet_01v8 ad=0.533 pd=3.13 as=1.6 ps=9.4 w=4 l=0.15
+X2 Q QB a_330_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X3 a_70_630# CLK DB VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X4 Q CLK a_10_1040# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X5 a_10_1040# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X6 a_10_1040# a_70_630# a_50_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.533 ps=3.13 w=1 l=0.15
+X7 QB Q a_330_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.433 ps=3.03 w=1 l=0.15
+X8 VP a_70_630# a_10_1040# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X9 QB CLK a_70_630# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X10 a_70_630# a_10_1040# a_50_n280# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.533 ps=3.13 w=1 l=0.15
+X11 VP a_10_1040# a_70_630# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3.16 as=0.25 ps=1.5 w=1 l=0.15
+X12 VN Q QB VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X13 VN QB Q VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+.ends
+
+
+* Top level circuit register
+
+Xcsrl_dff_0 D DB CLK Q QB VP VN csrl_dff
+.end
+

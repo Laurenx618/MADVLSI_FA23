@@ -6,10 +6,21 @@ Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalen
 Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
-Flattening unmatched subcell inverter in circuit csrl_dff_xschem.spice (1)(1 instance)
-Flattening unmatched subcell csrl_dff3_lds in circuit csrl_dff_xschem.spice (1)(1 instance)
+Flattening unmatched subcell csrl_dff in circuit register.spice (1)(1 instance)
 
-Equate elements:  no current cell.
-Device classes csrl_dff_layout.spice and csrl_dff_xschem.spice are equivalent.
+Subcircuit summary:
+Circuit 1: csrl_dff_xschem.spice           |Circuit 2: register.spice                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (7)                |sky130_fd_pr__pfet_01v8 (7)                
+sky130_fd_pr__nfet_01v8 (7)                |sky130_fd_pr__nfet_01v8 (7)                
+Number of devices: 14                      |Number of devices: 14                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes csrl_dff_xschem.spice and register.spice are equivalent.
 
-Final result: Top level cell failed pin matching.
+Final result: Circuits match uniquely.
+.

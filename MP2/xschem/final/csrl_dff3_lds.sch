@@ -8,7 +8,7 @@ E {}
 N 50 40 80 40 {
 lab=#net1}
 N 140 40 170 40 {
-lab=VP}
+lab=VDD}
 N 230 40 260 40 {
 lab=#net2}
 N 50 140 80 140 {
@@ -18,19 +18,17 @@ lab=#net3}
 N 230 230 260 230 {
 lab=QB}
 N 320 230 330 230 {
-lab=VN}
-N 330 230 330 330 {
-lab=VN}
-N 320 330 330 330 {
-lab=VN}
-N 50 330 80 330 {
 lab=#net4}
+N 330 230 330 330 {
+lab=#net4}
+N 320 330 330 330 {
+lab=#net4}
+N 50 330 80 330 {
+lab=#net5}
 N 140 330 170 330 {
 lab=#net1}
 N 230 330 260 330 {
 lab=Q}
-N -30 330 -10 330 {
-lab=VN}
 N -30 40 -10 40 {
 lab=D}
 N -30 140 -10 140 {
@@ -53,19 +51,15 @@ lab=QB}
 N 340 40 340 170 {
 lab=Q}
 N 330 330 330 400 {
-lab=VN}
-N -20 400 330 400 {
-lab=VN}
+lab=#net4}
 N -20 330 -20 400 {
-lab=VN}
+lab=GND}
 N 70 230 80 230 {
-lab=#net4}
+lab=#net5}
 N 70 230 70 330 {
-lab=#net4}
-N -30 -30 150 -30 {
-lab=VP}
+lab=#net5}
 N 140 140 150 140 {
-lab=VP}
+lab=VDD}
 N 250 140 260 140 {
 lab=#net2}
 N 250 40 250 140 {
@@ -76,10 +70,8 @@ N -30 180 20 180 {
 lab=CLK}
 N 20 180 200 180 {
 lab=CLK}
-N 150 -30 150 40 {
-lab=VP}
 N 150 40 150 140 {
-lab=VP}
+lab=VDD}
 N 60 40 60 170 {
 lab=#net1}
 N 60 170 110 190 {
@@ -128,6 +120,12 @@ N 290 90 330 110 {
 lab=QB}
 N 330 110 330 140 {
 lab=QB}
+N -20 330 -10 330 {
+lab=GND}
+N 150 20 150 40 {
+lab=VDD}
+N -20 400 -20 410 {
+lab=GND}
 C {madvlsi/pmos3.sym} 20 40 3 0 {name=M1
 L=0.15
 W=1
@@ -343,5 +341,6 @@ C {devices/ipin.sym} -30 140 0 0 {name=p2 lab=DB}
 C {devices/ipin.sym} -30 180 0 0 {name=p3 lab=CLK}
 C {devices/opin.sym} 350 40 0 0 {name=p4 lab=Q}
 C {devices/opin.sym} 350 140 0 0 {name=p5 lab=QB}
-C {devices/iopin.sym} -30 -30 0 1 {name=p6 lab=VP}
-C {devices/iopin.sym} -30 330 0 1 {name=p7 lab=VN}
+C {madvlsi/vdd.sym} 150 20 0 0 {name=l1 lab=VDD}
+C {madvlsi/gnd.sym} -20 410 0 0 {name=l2 lab=GND}
+C {madvlsi/gnd.sym} 330 400 0 0 {name=l3 lab=GND}
