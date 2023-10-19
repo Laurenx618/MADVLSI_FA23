@@ -129,7 +129,6 @@ C {madvlsi/capacitor.sym} 370 380 0 0 {name=C2
 value=2p
 m=1}
 C {madvlsi/gnd.sym} 370 420 0 0 {name=l2 lab=GND}
-C {/home/madvlsi/MADVLSI_FA23/MP3/xschem/v_gen_lds.sym} 80 260 0 0 {name=X4}
 C {madvlsi/vsource.sym} 240 430 0 0 {name=V1
 value="0 AC \{1-B\}"}
 C {/home/madvlsi/MADVLSI_FA23/MP3/xschem/diffamp_lds.sym} 220 380 0 0 {name=X1}
@@ -144,5 +143,6 @@ C {madvlsi/capacitor.sym} 370 230 0 0 {name=C1
 value=2p
 m=1}
 C {madvlsi/gnd.sym} 370 270 0 0 {name=l6 lab=GND}
-C {/home/madvlsi/MADVLSI_FA23/MP3/xschem/v_gen_lds.sym} 80 110 0 0 {name=X2}
 C {/home/madvlsi/MADVLSI_FA23/MP3/xschem/diffamp_lds.sym} 220 230 0 0 {name=X3}
+C {/home/madvlsi/MADVLSI_FA23/MP3/xschem/v_gen_lds.sym} 80 110 0 0 {name=X2}
+C {/home/madvlsi/MADVLSI_FA23/MP3/xschem/v_gen_lds.sym} 80 260 0 0 {name=X4}

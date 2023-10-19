@@ -177,8 +177,38 @@ N 910 -530 910 -410 {
 lab=Vbp}
 N 870 -610 870 -560 {
 lab=Vbn}
-N 900 -660 910 -660 {
+N 900 -660 900 -610 {
 lab=Vbn}
+N 910 -410 910 -360 {
+lab=Vbp}
+N 870 -360 900 -360 {
+lab=Vbp}
+N 820 -660 820 -580 {
+lab=Vcp}
+N 910 -460 930 -460 {
+lab=Vbp}
+N 900 -530 910 -530 {
+lab=Vbp}
+N 900 -360 910 -360 {
+lab=Vbp}
+N 900 -780 910 -780 {
+lab=VDD}
+N 910 -810 910 -780 {
+lab=VDD}
+N 870 -810 910 -810 {
+lab=VDD}
+N 870 -820 870 -810 {
+lab=VDD}
+N 840 -610 940 -610 {
+lab=Vbn}
+N 820 -580 940 -580 {
+lab=Vcp}
+N 900 -410 910 -410 {
+lab=Vbp}
+N 820 -780 840 -780 {
+lab=Vcp}
+N 830 -420 830 -410 {
+lab=VDD}
 N -170 -410 -140 -410 {
 lab=VDD}
 N -80 -410 -50 -410 {
@@ -228,47 +258,47 @@ lab=#net5}
 N 120 -530 120 -480 {
 lab=#net5}
 N 250 -380 250 -360 {
-lab=Vbp}
-N -200 -380 -200 -360 {
-lab=Vbp}
-N -110 -380 -110 -360 {
-lab=Vbp}
-N -20 -380 -20 -360 {
-lab=Vbp}
-N 70 -380 70 -360 {
-lab=Vbp}
-N 160 -380 160 -360 {
-lab=Vbp}
-N -170 -780 -140 -780 {
 lab=#net18}
+N -200 -380 -200 -360 {
+lab=#net18}
+N -110 -380 -110 -360 {
+lab=#net18}
+N -20 -380 -20 -360 {
+lab=#net18}
+N 70 -380 70 -360 {
+lab=#net18}
+N 160 -380 160 -360 {
+lab=#net18}
+N -170 -780 -140 -780 {
+lab=#net19}
 N -80 -780 -50 -780 {
 lab=#net8}
 N 10 -780 40 -780 {
-lab=#net18}
+lab=#net19}
 N 100 -780 130 -780 {
 lab=#net8}
 N 190 -780 220 -780 {
-lab=#net18}
+lab=#net19}
 N 280 -780 290 -780 {
 lab=VDD}
 N -110 -630 -110 -610 {
-lab=Vbn}
-N -20 -630 -20 -610 {
-lab=Vbn}
-N 70 -630 70 -610 {
-lab=Vbn}
-N 160 -630 160 -610 {
-lab=Vbn}
-N 250 -630 250 -610 {
-lab=Vbn}
-N -80 -660 -50 -660 {
-lab=#net19}
-N 10 -660 40 -660 {
 lab=#net20}
-N 100 -660 130 -660 {
+N -20 -630 -20 -610 {
+lab=#net20}
+N 70 -630 70 -610 {
+lab=#net20}
+N 160 -630 160 -610 {
+lab=#net20}
+N 250 -630 250 -610 {
+lab=#net20}
+N -80 -660 -50 -660 {
 lab=#net21}
-N 190 -660 220 -660 {
+N 10 -660 40 -660 {
 lab=#net22}
+N 100 -660 130 -660 {
+lab=#net23}
+N 190 -660 220 -660 {
+lab=#net24}
 N 280 -660 290 -660 {
 lab=#net8}
 N -170 -660 -140 -660 {
@@ -276,7 +306,7 @@ lab=GND}
 N 250 -750 250 -730 {
 lab=#net8}
 N -200 -750 -200 -730 {
-lab=#net23}
+lab=#net25}
 N -110 -750 -110 -730 {
 lab=#net8}
 N -20 -750 -20 -730 {
@@ -286,55 +316,51 @@ lab=#net8}
 N 160 -750 160 -730 {
 lab=#net8}
 N -240 -730 -200 -730 {
-lab=#net23}
+lab=#net25}
 N -240 -780 -240 -730 {
-lab=#net23}
+lab=#net25}
 N -240 -780 -230 -780 {
-lab=#net23}
+lab=#net25}
 N -200 -630 -200 -610 {
-lab=Vbn}
+lab=#net20}
 N -70 -780 -70 -730 {
 lab=#net8}
 N 200 -800 200 -780 {
-lab=#net18}
+lab=#net19}
 N -150 -800 200 -800 {
-lab=#net18}
+lab=#net19}
 N -150 -800 -150 -780 {
-lab=#net18}
+lab=#net19}
 N 20 -800 20 -780 {
-lab=#net18}
+lab=#net19}
 N 120 -780 120 -730 {
-lab=#net8}
-N 290 -730 290 -660 {
 lab=#net8}
 N -110 -730 290 -730 {
 lab=#net8}
 N -240 -660 -230 -660 {
-lab=#net23}
+lab=#net25}
 N -240 -730 -240 -660 {
-lab=#net23}
+lab=#net25}
 N -240 -410 -230 -410 {
-lab=#net24}
+lab=#net26}
 N -240 -530 -230 -530 {
-lab=#net24}
+lab=#net26}
 N -240 -530 -240 -410 {
-lab=#net24}
+lab=#net26}
 N -200 -500 -200 -480 {
-lab=#net24}
+lab=#net26}
 N -240 -480 -200 -480 {
-lab=#net24}
+lab=#net26}
+N -260 -610 250 -610 {
+lab=#net20}
 N -260 -410 -250 -410 {
 lab=VDD}
-N 290 -480 290 -410 {
-lab=#net5}
 N -160 -660 -160 -650 {
 lab=GND}
 N -160 -420 -160 -410 {
 lab=VDD}
 N -290 -380 -290 -360 {
-lab=Vbp}
-N 290 -810 290 -780 {
-lab=VDD}
+lab=#net18}
 N -260 -530 -250 -530 {
 lab=GND}
 N -250 -530 -250 -520 {
@@ -344,69 +370,51 @@ lab=GND}
 N -250 -660 -250 -650 {
 lab=GND}
 N -290 -630 -290 -610 {
-lab=Vbn}
+lab=#net20}
 N -290 -360 250 -360 {
-lab=Vbp}
+lab=#net18}
+N -330 -530 -330 -410 {
+lab=#net18}
+N -290 -610 -290 -560 {
+lab=#net20}
+N 290 -530 300 -530 {
+lab=GND}
+N 290 -730 290 -660 {
+lab=#net8}
+N 290 -480 290 -410 {
+lab=#net5}
+N 290 -810 290 -780 {
+lab=VDD}
 N 290 -530 290 -520 {
 lab=GND}
-N -320 -530 -320 -410 {
-lab=#net25}
-N -290 -610 -290 -560 {
-lab=Vbn}
-N -330 -660 -320 -660 {
-lab=Vbn}
+N -320 -660 -320 -610 {
+lab=#net20}
+N -330 -410 -330 -360 {
+lab=#net18}
+N -320 -360 -290 -360 {
+lab=#net18}
+N -330 -530 -320 -530 {
+lab=#net18}
+N -330 -360 -320 -360 {
+lab=#net18}
 N -330 -780 -320 -780 {
 lab=VDD}
-N -290 -610 250 -610 {
-lab=Vbn}
-N 900 -660 900 -610 {
-lab=Vbn}
-N -330 -660 -330 -610 {
-lab=Vbn}
-N -330 -610 -290 -610 {
-lab=Vbn}
-N 250 -610 330 -610 {
-lab=Vbn}
-N 250 -360 330 -360 {
-lab=Vbp}
-N 910 -410 910 -360 {
-lab=Vbp}
-N 870 -360 900 -360 {
-lab=Vbp}
-N 820 -660 820 -580 {
-lab=Vcp}
-N 910 -460 930 -460 {
-lab=Vbp}
-N 900 -530 910 -530 {
-lab=Vbp}
-N 900 -360 910 -360 {
-lab=Vbp}
 N -330 -810 -330 -780 {
 lab=VDD}
 N -330 -810 -290 -810 {
 lab=VDD}
 N -290 -820 -290 -810 {
 lab=VDD}
-N 900 -780 910 -780 {
+N -330 -410 -320 -410 {
+lab=#net18}
+N -260 -780 -240 -780 {
+lab=#net25}
+N -250 -420 -250 -410 {
 lab=VDD}
-N 910 -810 910 -780 {
-lab=VDD}
-N 870 -810 910 -810 {
-lab=VDD}
-N 870 -820 870 -810 {
-lab=VDD}
-N 840 -610 940 -610 {
-lab=Vbn}
-N 820 -580 940 -580 {
-lab=Vcp}
-N 970 -660 1000 -660 {
-lab=GND}
-N 900 -410 910 -410 {
-lab=Vbp}
-N -260 -780 -240 -780 {}
-N 820 -780 840 -780 {}
-N -320 -360 -290 -360 {}
-N -320 -410 -320 -360 {}
+N -290 -610 -260 -610 {
+lab=#net20}
+N -320 -610 -290 -610 {
+lab=#net20}
 C {madvlsi/pmos3.sym} 780 -410 1 1 {name=M29
 L=0.5
 W=12
@@ -785,12 +793,10 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {madvlsi/vdd.sym} 830 -410 0 1 {name=l2 lab=VDD}
+C {madvlsi/vdd.sym} 830 -420 0 1 {name=l2 lab=VDD}
 C {madvlsi/vdd.sym} 740 -420 0 1 {name=l7 lab=VDD}
 C {madvlsi/gnd.sym} 740 -650 0 0 {name=l10 lab=GND}
 C {devices/opin.sym} 930 -460 2 1 {name=p4 lab=Vbp}
-C {madvlsi/isource.sym} 940 -660 1 0 {name=Ib
-value=2u}
 C {madvlsi/nmos3.sym} 870 -530 1 0 {name=M1
 L=0.5
 W=12
@@ -823,6 +829,22 @@ spiceprefix=X
 }
 C {madvlsi/gnd.sym} 830 -520 0 1 {name=l1 lab=GND}
 C {madvlsi/gnd.sym} 830 -650 0 1 {name=l5 lab=GND}
+C {madvlsi/pmos3.sym} 870 -780 1 0 {name=M3
+L=0.5
+W=12
+body=VDD
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {madvlsi/vdd.sym} 870 -820 0 1 {name=l3 lab=VDD}
 C {madvlsi/pmos3.sym} -200 -410 3 0 {name=M4
 L=0.5
 W=12
@@ -1003,7 +1025,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/gnd.sym} 290 -520 0 0 {name=l8 lab=GND}
 C {madvlsi/pmos3.sym} -200 -780 3 0 {name=M16
 L=0.5
 W=12
@@ -1184,7 +1205,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/vdd.sym} 290 -810 0 0 {name=l9 lab=VDD}
 C {madvlsi/pmos3.sym} -290 -410 3 0 {name=M52
 L=0.5
 W=12
@@ -1200,9 +1220,9 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {madvlsi/vdd.sym} -250 -410 0 0 {name=l11 lab=VDD}
-C {madvlsi/vdd.sym} -160 -420 0 0 {name=l12 lab=VDD}
-C {madvlsi/gnd.sym} -160 -650 0 1 {name=l13 lab=GND}
+C {madvlsi/vdd.sym} -250 -420 0 0 {name=l6 lab=VDD}
+C {madvlsi/vdd.sym} -160 -420 0 0 {name=l11 lab=VDD}
+C {madvlsi/gnd.sym} -160 -650 0 1 {name=l12 lab=GND}
 C {madvlsi/nmos3.sym} -290 -530 3 1 {name=M53
 L=0.5
 W=12
@@ -1233,8 +1253,10 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/gnd.sym} -250 -520 0 0 {name=l14 lab=GND}
-C {madvlsi/gnd.sym} -250 -650 0 0 {name=l15 lab=GND}
+C {madvlsi/gnd.sym} -250 -520 0 0 {name=l13 lab=GND}
+C {madvlsi/gnd.sym} -250 -650 0 0 {name=l14 lab=GND}
+C {madvlsi/gnd.sym} 290 -520 0 1 {name=l15 lab=GND}
+C {madvlsi/vdd.sym} 290 -810 0 1 {name=l16 lab=VDD}
 C {madvlsi/pmos3.sym} -290 -780 3 1 {name=M56
 L=0.5
 W=12
@@ -1250,21 +1272,4 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {madvlsi/vdd.sym} -290 -820 0 0 {name=l16 lab=VDD}
-C {madvlsi/pmos3.sym} 870 -780 1 0 {name=M3
-L=0.5
-W=12
-body=VDD
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {madvlsi/vdd.sym} 870 -820 0 1 {name=l3 lab=VDD}
-C {madvlsi/gnd.sym} 1000 -660 0 0 {name=l4 lab=GND}
+C {madvlsi/vdd.sym} -290 -820 0 0 {name=l17 lab=VDD}
