@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1697720917
+timestamp 1697750664
 << poly >>
 rect 2590 7245 2620 7260
 rect 1480 5860 1515 5875
@@ -39,7 +39,6 @@ box -270 -2540 1480 2675
 rlabel poly 2620 7250 2620 7250 3 Vref
 rlabel metal1 1500 5220 1500 5220 7 VP
 rlabel metal1 1500 6515 1500 6515 7 VN
-rlabel poly 1500 3830 1500 3830 7 VN
 rlabel locali 2620 7205 2620 7205 3 Vin
 rlabel metal1 -280 3795 -280 3795 7 VP
 rlabel locali 2620 4495 2620 4495 7 Vout
@@ -47,4 +46,5 @@ rlabel metal1 -280 7710 -280 7710 7 VP
 rlabel locali 1500 4500 1500 4500 7 Vbp
 rlabel metal1 -280 5744 -280 5744 7 VN
 rlabel locali 1500 4570 1500 4570 7 Vcp
+rlabel metal1 1500 3830 1500 3830 7 VN
 << end >>

@@ -89,7 +89,7 @@ X23 a_n1150_30# Vcn a_n1350_30# VN sky130_fd_pr__nfet_01v8 ad=3 pd=12.5 as=6 ps=
 
 * Top level circuit final
 
-Xv_gen_0 v_gen_0/Vbn Vcp Vbp VP VN VN v_gen
-Xdiff_amp_0 v_gen_0/Vbn Vin Vref Vbp Vcp VN Vout VP VN diff_amp
+Xv_gen_0 v_gen_0/Vbn Vcp Vbp VP VN v_gen_0/Vcn v_gen
+Xdiff_amp_0 v_gen_0/Vbn Vin Vref Vbp Vcp v_gen_0/Vcn Vout VP VN diff_amp
 .end
 
