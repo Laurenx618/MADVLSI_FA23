@@ -246,7 +246,6 @@ C {devices/opin.sym} 470 90 0 0 {name=p7 lab=Vcp}
 C {devices/opin.sym} -160 30 0 0 {name=p8 lab=Vbp
 }
 C {madvlsi/gnd.sym} -220 150 0 0 {name=l5 lab=GND}
-C {devices/ipin.sym} -360 30 0 0 {name=p5 lab=V_Ib}
 C {madvlsi/pmos3.sym} 280 -20 0 0 {name=M9
 L=0.15
 W=1
@@ -325,3 +324,5 @@ spiceprefix=X
 }
 C {madvlsi/gnd.sym} 280 240 0 0 {name=l8 lab=GND}
 C {madvlsi/gnd.sym} 420 240 0 0 {name=l9 lab=GND}
+C {madvlsi/isource.sym} -360 0 0 0 {name=Ib
+value=1u}
