@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1697750664
+timestamp 1697774992
 << poly >>
 rect 2590 7245 2620 7260
 rect 1480 5860 1515 5875
@@ -32,7 +32,7 @@ timestamp 1697719741
 transform 1 0 2230 0 1 3220
 box -730 -55 390 4040
 use v_gen  v_gen_0
-timestamp 1697718071
+timestamp 1697774992
 transform 1 0 -10 0 1 5660
 box -270 -2540 1480 2675
 << labels >>

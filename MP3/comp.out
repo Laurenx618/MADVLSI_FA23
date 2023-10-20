@@ -11,19 +11,19 @@ Flattening unmatched subcell diffamp_lds in circuit mp3_final_lvs.spice (0)(1 in
 Flattening unmatched subcell v_gen in circuit final.spice (1)(1 instance)
 Flattening unmatched subcell diff_amp in circuit final.spice (1)(1 instance)
 
-Class mp3_final_lvs.spice (0):  Merged 12 parallel devices.
-Class final.spice (1):  Merged 12 parallel devices.
+Class mp3_final_lvs.spice (0):  Merged 15 parallel devices.
+Class final.spice (1):  Merged 15 parallel devices.
 Subcircuit summary:
 Circuit 1: mp3_final_lvs.spice             |Circuit 2: final.spice                     
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (36->30)           |sky130_fd_pr__pfet_01v8 (36->30)           
-sky130_fd_pr__nfet_01v8 (44->38)           |sky130_fd_pr__nfet_01v8 (44->38)           
-Number of devices: 68                      |Number of devices: 68                      
-Number of nets: 47                         |Number of nets: 47                         
+sky130_fd_pr__pfet_01v8 (36->29)           |sky130_fd_pr__pfet_01v8 (36->29)           
+sky130_fd_pr__nfet_01v8 (44->36)           |sky130_fd_pr__nfet_01v8 (44->36)           
+Number of devices: 65                      |Number of devices: 65                      
+Number of nets: 45                         |Number of nets: 45                         
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
-Netlists match with 3 symmetries.
+Netlists match with 21 symmetries.
 Cells have no pins;  pin matching not needed.
 Device classes mp3_final_lvs.spice and final.spice are equivalent.
 
